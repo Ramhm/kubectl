@@ -1,8 +1,8 @@
 FROM ubuntu:18.04
 MAINTAINER R.H <Ram.Hakimi@gmail.com
 
-RUN apt-get update &&
-    ip apt-get install -y apt-transport-https gnupg2 
+RUN apt-get update && \
+    apt-get install -y apt-transport-https gnupg2 
 
 # Kubectl
 RUN curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - && \
