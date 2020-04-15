@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER R.H <Ram.Hakimi@gmail.com
+MAINTAINER R.H <Ram.Hakimi@gmail.com>
 
 RUN apt-get update && \
     apt-get install -y apt-transport-https gnupg2 
